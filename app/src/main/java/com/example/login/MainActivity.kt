@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //Anubis
+
         usuarioEditText = findViewById(R.id.usuarioText)
         passwordEditText = findViewById(R.id.passText)
         loginButton = findViewById(R.id.btnIngresar)
