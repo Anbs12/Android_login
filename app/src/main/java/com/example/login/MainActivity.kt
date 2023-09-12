@@ -32,6 +32,8 @@ class MainActivity : AppCompatActivity() {
             ingresar()
         }
 
+
+
         //boton para salir seteado
         button.setOnClickListener {
             finishAffinity()
@@ -46,6 +48,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+
+
         val usuario = usuarioEditText.text.toString()
         val clave = passwordEditText.text.toString()
 
@@ -59,6 +63,10 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Usuario incorrecto.", Toast.LENGTH_SHORT).show()
         }
 
+
+    }
+
+    override fun onBackPressed(){
 
     }
 
